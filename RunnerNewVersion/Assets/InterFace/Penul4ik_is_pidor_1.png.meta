@@ -1,43 +1,21 @@
 fileFormatVersion: 2
-guid: af6161ddbe26b7a4a8a1d29c1e8664f6
-timeCreated: 1507404558
+guid: af87b6787f74a6e43b57dfe35141516c
+timeCreated: 1508034711
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 31934__28789__26159_pidor_0
-    21300002: 31934__28789__26159_pidor_1
-    21300004: 31934__28789__26159_pidor_2
-    21300006: 31934__28789__26159_pidor_3
-    21300008: 31934__28789__26159_pidor_4
-    21300010: 31934__28789__26159_pidor_5
-    21300012: 31934__28789__26159_pidor_6
-    21300014: 31934__28789__26159_pidor_7
-    21300016: 31934__28789__26159_pidor_8
-    21300018: 31934__28789__26159_pidor_9
-    21300020: 31934__28789__26159_pidor_10
-    21300022: 31934__28789__26159_pidor_11
-    21300024: 31934__28789__26159_pidor_12
-    21300026: 31934__28789__26159_pidor_13
-    21300028: 31934__28789__26159_pidor_14
-    21300030: 31934__28789__26159_pidor_15
-    21300032: 31934__28789__26159_pidor_16
-    21300034: 31934__28789__26159_pidor_17
-    21300036: 31934__28789__26159_pidor_18
-    21300038: 31934__28789__26159_pidor_19
-    21300040: 31934__28789__26159_pidor_20
-    21300042: 31934__28789__26159_pidor_21
-    21300044: 31934__28789__26159_pidor_22
-    21300046: 31934__28789__26159_pidor_23
-    21300048: 31934__28789__26159_pidor_24
-    21300050: 31934__28789__26159_pidor_25
-    21300052: 31934__28789__26159_pidor_26
-    21300054: 31934__28789__26159_pidor_27
-    21300056: 31934__28789__26159_pidor_28
-    21300058: 31934__28789__26159_pidor_29
-    21300060: 31934__28789__26159_pidor_30
-    21300062: 31934__28789__26159_pidor_31
-    21300064: 31934__28789__26159_pidor_32
-    21300066: 31934__28789__26159_pidor_33
+    21300000: Penul4ik_is_pidor_1_0
+    21300002: Penul4ik_is_pidor_1_1
+    21300004: Penul4ik_is_pidor_1_2
+    21300006: Penul4ik_is_pidor_1_3
+    21300008: Penul4ik_is_pidor_1_4
+    21300010: Penul4ik_is_pidor_1_5
+    21300012: Penul4ik_is_pidor_1_6
+    21300014: Penul4ik_is_pidor_1_7
+    21300016: Penul4ik_is_pidor_1_8
+    21300018: Penul4ik_is_pidor_1_9
+    21300020: Penul4ik_is_pidor_1_10
+    21300022: Penul4ik_is_pidor_1_11
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -64,7 +42,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 2
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -133,13 +111,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 31934__28789__26159_pidor_0
+      name: Penul4ik_is_pidor_1_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 669
-        width: 149
-        height: 70
+        x: 103
+        y: 707
+        width: 274
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,13 +125,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 31934__28789__26159_pidor_1
+      name: Penul4ik_is_pidor_1_1
       rect:
         serializedVersion: 2
-        x: 183
-        y: 669
-        width: 149
-        height: 70
+        x: 465
+        y: 707
+        width: 259
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,13 +139,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 31934__28789__26159_pidor_2
+      name: Penul4ik_is_pidor_1_2
       rect:
         serializedVersion: 2
-        x: 12
-        y: 536
-        width: 149
-        height: 70
+        x: 112
+        y: 573
+        width: 256
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,13 +153,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 31934__28789__26159_pidor_3
+      name: Penul4ik_is_pidor_1_3
       rect:
         serializedVersion: 2
-        x: 183
-        y: 536
-        width: 149
-        height: 70
+        x: 510
+        y: 575
+        width: 187
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,13 +167,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 31934__28789__26159_pidor_4
+      name: Penul4ik_is_pidor_1_4
       rect:
         serializedVersion: 2
-        x: 12
-        y: 403
-        width: 149
-        height: 70
+        x: 184
+        y: 438
+        width: 116
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,13 +181,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 31934__28789__26159_pidor_5
+      name: Penul4ik_is_pidor_1_5
       rect:
         serializedVersion: 2
-        x: 183
-        y: 403
-        width: 149
-        height: 70
+        x: 553
+        y: 440
+        width: 97
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,13 +195,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 31934__28789__26159_pidor_6
+      name: Penul4ik_is_pidor_1_6
       rect:
         serializedVersion: 2
-        x: 12
-        y: 270
-        width: 149
-        height: 70
+        x: 112
+        y: 301
+        width: 256
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,13 +209,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 31934__28789__26159_pidor_7
+      name: Penul4ik_is_pidor_1_7
       rect:
         serializedVersion: 2
-        x: 183
-        y: 270
-        width: 149
-        height: 70
+        x: 476
+        y: 303
+        width: 238
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,13 +223,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 31934__28789__26159_pidor_8
+      name: Penul4ik_is_pidor_1_8
       rect:
         serializedVersion: 2
-        x: 12
-        y: 137
-        width: 149
-        height: 70
+        x: 112
+        y: 168
+        width: 256
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,13 +237,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 31934__28789__26159_pidor_9
+      name: Penul4ik_is_pidor_1_9
       rect:
         serializedVersion: 2
-        x: 183
-        y: 137
-        width: 149
-        height: 70
+        x: 476
+        y: 170
+        width: 238
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,13 +251,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 31934__28789__26159_pidor_10
+      name: Penul4ik_is_pidor_1_10
       rect:
         serializedVersion: 2
-        x: 12
-        y: 4
-        width: 149
-        height: 70
+        x: 154
+        y: 34
+        width: 171
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,13 +265,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 31934__28789__26159_pidor_11
+      name: Penul4ik_is_pidor_1_11
       rect:
         serializedVersion: 2
-        x: 183
-        y: 4
-        width: 149
-        height: 70
+        x: 517
+        y: 37
+        width: 156
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
