@@ -30,7 +30,7 @@ public class Enemy2Behavior : MonoBehaviour {
 
     private void Start()
     {
-        gameObject.GetComponent<MeshRenderer>().material.color = Color.white;
+       // gameObject.GetComponent<MeshRenderer>().material.color = Color.white;
         
     }
 
@@ -82,21 +82,21 @@ public class Enemy2Behavior : MonoBehaviour {
             IsMove = true;
             RightMove();
         }
-        if (targetZ < z && transform.position.z < zPosition[targetZ])
+        if (targetZ < z && transform.position.x < zPosition[targetZ])
         {
             z = targetZ;
             IsMove = false;
             moveHorizontal = 0;
         }
-        if (targetZ > z && transform.position.z > zPosition[targetZ])
+        if (targetZ > z && transform.position.x > zPosition[targetZ])
         {
             z = targetZ;
             IsMove = false;
             moveHorizontal = 0;
         } //здесь он заканчиваеться
         time++;
-        if (time >= TimeToAttak - 10 && gameObject.GetComponent<MeshRenderer>().material.color == Color.white)
-            gameObject.GetComponent<MeshRenderer>().material.color = Color.red;
+        if (time >= TimeToAttak - 10 /*&& gameObject.GetComponent<MeshRenderer>().material.color == Color.white*/)
+           // gameObject.GetComponent<MeshRenderer>().material.color = Color.red;
         if (time >= TimeToAttak)
         {
             time = 0f;
@@ -115,9 +115,9 @@ public class Enemy2Behavior : MonoBehaviour {
        
        //движение по физике
            
-            Vector3 movement = new Vector3(0.0f, moveVertical, -moveHorizontal);
+            Vector3 movement = new Vector3(-moveHorizontal, moveVertical, 0.0f);
             GetComponent<Rigidbody>().velocity = movement * Speed;
-            GetComponent<Rigidbody>().rotation = Quaternion.Euler(GetComponent<Rigidbody>().velocity.z * tilt - 90f, 0.0f, 0.0f);
+            GetComponent<Rigidbody>().rotation = Quaternion.Euler(4f, 180f, GetComponent<Rigidbody>().velocity.x * tilt);
 
        
     }
@@ -129,8 +129,8 @@ public class Enemy2Behavior : MonoBehaviour {
     {
         if (AttakTumbler)
         {
-            gameObject.GetComponent<MeshRenderer>().material.color = Color.white;
-            Instantiate(Bullet, gameObject.transform.position, Bullet.transform.rotation);
+           // gameObject.GetComponent<MeshRenderer>().material.color = Color.white;
+            Instantiate(Bullet, gameObject.transform.position, Quaternion.Euler(-95f, 0, 0f));
             TimeToAttak2 = 0;
         }
     }

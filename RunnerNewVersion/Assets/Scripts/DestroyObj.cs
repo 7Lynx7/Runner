@@ -8,10 +8,9 @@ public class DestroyObj : MonoBehaviour {
 	void Start () {
 		
 	}
-    public GameObject Obj;
     private void OnTriggerEnter(Collider Other)
     {
-        if (Other.name == Obj.name)
+        if (Other.name == "Cube")
         {
             Destroy(gameObject);
         }

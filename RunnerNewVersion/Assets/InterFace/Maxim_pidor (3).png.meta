@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: c442f1211a913ac4cb78000aa1556ea9
+timeCreated: 1509047144
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Maxim_pidor (3)_0
+    21300002: Maxim_pidor (3)_1
+    21300004: Maxim_pidor (3)_2
+    21300006: Maxim_pidor (3)_3
+    21300008: Maxim_pidor (3)_4
+    21300010: Maxim_pidor (3)_5
+    21300012: Maxim_pidor (3)_6
+    21300014: Maxim_pidor (3)_7
+    21300016: Maxim_pidor (3)_8
+    21300018: Maxim_pidor (3)_9
+    21300020: Maxim_pidor (3)_10
+    21300022: Maxim_pidor (3)_11
+    21300024: Maxim_pidor (3)_12
+    21300026: Maxim_pidor (3)_13
+    21300028: Maxim_pidor (3)_14
+    21300030: Maxim_pidor (3)_15
+    21300032: Maxim_pidor (3)_16
+    21300034: Maxim_pidor (3)_17
+    21300036: Maxim_pidor (3)_18
+    21300038: Maxim_pidor (3)_19
+    21300040: Maxim_pidor (3)_20
+    21300042: Maxim_pidor (3)_21
+    21300044: Maxim_pidor (3)_22
+    21300046: Maxim_pidor (3)_23
+    21300048: Maxim_pidor (3)_24
+    21300050: Maxim_pidor (3)_25
+    21300052: Maxim_pidor (3)_26
+    21300054: Maxim_pidor (3)_27
+    21300056: Maxim_pidor (3)_28
+    21300058: Maxim_pidor (3)_29
+    21300060: Maxim_pidor (3)_30
+    21300062: Maxim_pidor (3)_31
+    21300064: Maxim_pidor (3)_32
+    21300066: Maxim_pidor (3)_33
+    21300068: Maxim_pidor (3)_34
+    21300070: Maxim_pidor (3)_35
+    21300072: Maxim_pidor (3)_36
+    21300074: Maxim_pidor (3)_37
+    21300076: Maxim_pidor (3)_38
+    21300078: Maxim_pidor (3)_39
+    21300080: Maxim_pidor (3)_40
+    21300082: Maxim_pidor (3)_41
+    21300084: Maxim_pidor (3)_42
+    21300086: Maxim_pidor (3)_43
+    21300088: Maxim_pidor (3)_44
+    21300090: Maxim_pidor (3)_45
+    21300092: Maxim_pidor (3)_46
+    21300094: Maxim_pidor (3)_47
+    21300096: Maxim_pidor (3)_48
+    21300098: Maxim_pidor (3)_49
+    21300100: Maxim_pidor (3)_50
+    21300102: Maxim_pidor (3)_51
+    21300104: Maxim_pidor (3)_52
+    21300106: Maxim_pidor (3)_53
+    21300108: Maxim_pidor (3)_54
+    21300110: Maxim_pidor (3)_55
+    21300112: Maxim_pidor (3)_56
+    21300114: Maxim_pidor (3)_57
+    21300116: Maxim_pidor (3)_58
+    21300118: Maxim_pidor (3)_59
+    21300120: Maxim_pidor (3)_60
+    21300122: Maxim_pidor (3)_61
+    21300124: Maxim_pidor (3)_62
+    21300126: Maxim_pidor (3)_63
+    21300128: Maxim_pidor (3)_64
+    21300130: Maxim_pidor (3)_65
+    21300132: Maxim_pidor (3)_66
+    21300134: Maxim_pidor (3)_67
+    21300136: Maxim_pidor (3)_68
+    21300138: Maxim_pidor (3)_69
+    21300140: Maxim_pidor (3)_70
+    21300142: Maxim_pidor (3)_71
+    21300144: Maxim_pidor (3)_72
+    21300146: Maxim_pidor (3)_73
+    21300148: Maxim_pidor (3)_74
+    21300150: Maxim_pidor (3)_75
+    21300152: Maxim_pidor (3)_76
+    21300154: Maxim_pidor (3)_77
+    21300156: Maxim_pidor (3)_78
+    21300158: Maxim_pidor (3)_79
+    21300160: Maxim_pidor (3)_80
+    21300162: Maxim_pidor (3)_81
+    21300164: Maxim_pidor (3)_82
+    21300166: Maxim_pidor (3)_83
+    21300168: Maxim_pidor (3)_84
+    21300170: Maxim_pidor (3)_85
+    21300172: Maxim_pidor (3)_86
+    21300174: Maxim_pidor (3)_87
+    21300176: Maxim_pidor (3)_88
+    21300178: Maxim_pidor (3)_89
+    21300180: Maxim_pidor (3)_90
+    21300182: Maxim_pidor (3)_91
+    21300184: Maxim_pidor (3)_92
+    21300186: Maxim_pidor (3)_93
+    21300188: Maxim_pidor (3)_94
+    21300190: Maxim_pidor (3)_95
+    21300192: Maxim_pidor (3)_96
+    21300194: Maxim_pidor (3)_97
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 724
+        width: 250
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_8
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 650
+        width: 188
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 589
+        width: 316
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_28
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 548
+        width: 234
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_34
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 455
+        width: 334
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_44
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 448
+        width: 249
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_54
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 319
+        width: 368
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_64
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 346
+        width: 277
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_80
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 185
+        width: 211
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_86
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 143
+        width: 136
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_91
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 49
+        width: 178
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_93
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 49
+        width: 4
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_97
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 643
+        width: 117
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maxim_pidor (3)_1
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 242
+        width: 166
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

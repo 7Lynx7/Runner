@@ -4,37 +4,37 @@ using UnityEngine;
 
 public class PlayerDeth : MonoBehaviour {
 
-    public GameObject Bullet, Pillar, Wall, Particle, Player, Canvas,PlayerPrefab, YouLose;
+    public GameObject Bullet, Pillar, Wall, Particle, Particle2, Player, Canvas, YouLose;
 
     public bool DeathPassiveRotate = false, TimerToMenu = false;
 
     public float TIME, koef, TimeToMenu = 0;
 
-    private void OnTriggerEnter(Collider Other)
-    {
-       // if (Other.name == Bullet.name || Other.name == Pillar.name || Other.name == Wall.name)
-            Death();
-    }
-    void Death()
+    //private void OnTriggerEnter(Collider Other)
+    //{
+    //   // if (Other.name == Bullet.name || Other.name == Pillar.name || Other.name == Wall.name)
+    //        Death();
+    //}
+    public void Death()
     {
         Particle.GetComponent<ParticleSystem>().Play();
-        Player.SetActive(false);
+        Player.GetComponent<MeshRenderer>().enabled = false;
+        Player.GetComponent<Rigidbody>().velocity = new Vector3();
+        Particle2.SetActive(false);
         GetComponent<Controls>().enabled = false;
-        GetComponent<BoxCollider>().enabled = false;
-        GetComponent<CapsuleCollider>().enabled = false;
+        GetComponent<MeshCollider>().enabled = false;
         DeathPassiveRotate = true;
         TimerToMenu = true;
-
+        Canvas.GetComponent<MenuScript>().IsGame = false;
         YouLose.SetActive(true);
     }
 
     void StartGame()
     {
         TIME = -1f;
-        koef = 1;
+        koef = 4;
         TimerToMenu = false;
         TimeToMenu = 0;
-        transform.position = PlayerPrefab.transform.position;
         DeathPassiveRotate = false;
         YouLose.SetActive(false);
         Canvas.GetComponent<MenuScript>().PlayerDeath();

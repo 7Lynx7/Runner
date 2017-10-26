@@ -5,7 +5,6 @@ using UnityEngine;
 public class BulletBehavior : MonoBehaviour {
 
     public bool IsFirst, IsMove;
-    public GameObject Stolb;
 
     private void Start()
     {
@@ -15,7 +14,7 @@ public class BulletBehavior : MonoBehaviour {
 
     void Update () {
         if (IsFirst == false && IsMove)
-        transform.Translate(Vector3.up * 4 * Time.deltaTime);
+        transform.Translate(Vector3.up * 40 * Time.deltaTime);
     }
     public int time;
     public int TimeToDestroy;

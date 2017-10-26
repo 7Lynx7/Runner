@@ -70,21 +70,21 @@ public class StolbProverka : MonoBehaviour {
             Enemy2.GetComponent<Enemy2Behavior>().Prepyatsviya[3]--;
             Enemy2.GetComponent<Enemy2Behavior>().Prepyatsviya[4]--;
         }
-        if (Canvas.GetComponent<MenuScript>().IsMainMenu)
-        {
-            if (other.name == CheckStolbVxod1P.name)
-                Player.GetComponent<PlayerPassive>().Prepyatsviya[0]++;
-            if (other.name == CheckStolbVxod2P.name)
-                Player.GetComponent<PlayerPassive>().Prepyatsviya[1]++;
-            if (other.name == CheckStolbVxod3P.name)
-                Player.GetComponent<PlayerPassive>().Prepyatsviya[2]++;
-            if (other.name == CheckStolbVixod1P.name)
-                Player.GetComponent<PlayerPassive>().Prepyatsviya[0]--;
-            if (other.name == CheckStolbVixod2P.name)
-                Player.GetComponent<PlayerPassive>().Prepyatsviya[1]--;
-            if (other.name == CheckStolbVixod3P.name)
-                Player.GetComponent<PlayerPassive>().Prepyatsviya[2]--;
-        }
+        //if (Canvas.GetComponent<MenuScript>().IsMainMenu)
+        //{
+        //    if (other.name == CheckStolbVxod1P.name)
+        //        Player.GetComponent<PlayerPassive>().Prepyatsviya[0]++;
+        //    if (other.name == CheckStolbVxod2P.name)
+        //        Player.GetComponent<PlayerPassive>().Prepyatsviya[1]++;
+        //    if (other.name == CheckStolbVxod3P.name)
+        //        Player.GetComponent<PlayerPassive>().Prepyatsviya[2]++;
+        //    if (other.name == CheckStolbVixod1P.name)
+        //        Player.GetComponent<PlayerPassive>().Prepyatsviya[0]--;
+        //    if (other.name == CheckStolbVixod2P.name)
+        //        Player.GetComponent<PlayerPassive>().Prepyatsviya[1]--;
+        //    if (other.name == CheckStolbVixod3P.name)
+        //        Player.GetComponent<PlayerPassive>().Prepyatsviya[2]--;
+        //}
     }
 
 }

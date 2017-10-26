@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class RotateTropinka : MonoBehaviour {
     public float koef;
-   // public GameObject Player;
-    // Use this for initialization
+  public GameObject Player;
+   
     void Start () {
-       // koef = 1;
+     
     }
 	
 	// Update is called once per frame
@@ -16,7 +16,7 @@ public class RotateTropinka : MonoBehaviour {
 	}
     void FixedUpdate()
     {
-       // koef = Player.GetComponent<PlayerDeth>().koef;
+       koef = Player.GetComponent<PlayerDeth>().koef;
         transform.Rotate(new Vector3( - 0.1f * koef, 0f, 0f));
     }
 }

@@ -15,7 +15,7 @@ public class Spawn : MonoBehaviour {
 	}
     public GameObject Stolb;
     public GameObject Wall;
-    public GameObject Tropinka;
+    public GameObject RotateObs;
     public int time;
     public int TimeToSpawn;
     public int rand;
@@ -30,9 +30,16 @@ public class Spawn : MonoBehaviour {
     }
     void CreateTower(int x)
     {
-     if (x == 1) Instantiate(Stolb, PositionStolb1.transform.position, PositionStolb1.transform.rotation);
-     if (x == 2) Instantiate(Stolb, PositionStolb2.transform.position, PositionStolb1.transform.rotation);
-     if (x == 3) Instantiate(Stolb, PositionStolb3.transform.position, PositionStolb1.transform.rotation);
+     if (x == 1) Instantiate(Stolb, PositionStolb1.transform.position , PositionStolb1.transform.rotation, RotateObs.transform);
+     if (x == 2) Instantiate(Stolb, PositionStolb2.transform.position, PositionStolb1.transform.rotation, RotateObs.transform);
+     if (x == 3) Instantiate(Stolb, PositionStolb3.transform.position, PositionStolb1.transform.rotation, RotateObs.transform);
+
+    }
+    void CreateWall(int x)
+    {
+        if (x == 1) Instantiate(Wall, PositionStolb1.transform.position + new Vector3(0f, 0.75f, 0.5f), PositionStolb1.transform.rotation, RotateObs.transform);
+        if (x == 2) Instantiate(Wall, PositionStolb2.transform.position + new Vector3(0f, 0.75f, 0.5f), PositionStolb1.transform.rotation, RotateObs.transform);
+        if (x == 3) Instantiate(Wall, PositionStolb3.transform.position + new Vector3(0f, 0.75f, 0.5f), PositionStolb1.transform.rotation, RotateObs.transform);
 
     }
     void FixedUpdate()
@@ -46,7 +53,19 @@ public class Spawn : MonoBehaviour {
             rand = UnityEngine.Random.Range(1, 4);
             if (rand == 1)
             {
-                Instantiate(Wall, Tropinka.transform.position, PositionStolb1.transform.rotation);
+                rand2 = UnityEngine.Random.Range(1, 4);
+                if (rand2 == 1)
+                {
+                    CreateWall(rand2);
+                }
+                if (rand2 == 2)
+                {
+                    CreateWall(rand2);
+                }
+                if (rand2 == 3)
+                {
+                    CreateWall(rand2);
+                }
             }
             if (rand > 1)
             {

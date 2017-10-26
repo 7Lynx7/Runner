@@ -11,6 +11,7 @@ public class Controls : MonoBehaviour {
     public float Speed;
     public float xMin, xMax, yMin, yMax;
     public float tilt;
+    public bool Controlled;
     // Update is called once per frame
     void Update () {
         transform.position = new Vector3
@@ -66,9 +67,11 @@ public class Controls : MonoBehaviour {
         
         float moveHorizontal = Input.GetAxis("Horizontal");
         //Input.GetAxis("Vertical");
-        Vector3 movement = new Vector3(  moveHorizontal, moveVertical/2, 0.0f);
-        GetComponent<Rigidbody>().velocity = movement * Speed;
-        GetComponent<Rigidbody>().rotation = Quaternion.Euler(0.0f, 180f, GetComponent<Rigidbody>().velocity.x * tilt);
-
+        if (Controlled)
+        {
+            Vector3 movement = new Vector3(-moveHorizontal, moveVertical / 2, 0.0f);
+            GetComponent<Rigidbody>().velocity = movement * Speed;
+            GetComponent<Rigidbody>().rotation = Quaternion.Euler(5f, 180f, GetComponent<Rigidbody>().velocity.x * tilt);
+        }
     }
 }

@@ -77,13 +77,13 @@ public class PlayerPassive : MonoBehaviour {
             IsMove = true;
             RightMove();
         }
-        if (targetZ < z && transform.position.z < zPosition[targetZ])
+        if (targetZ < z && transform.position.x < zPosition[targetZ])
         {
             z = targetZ;
             IsMove = false;
             moveHorizontal = 0;
         }
-        if (targetZ > z && transform.position.z > zPosition[targetZ])
+        if (targetZ > z && transform.position.x > zPosition[targetZ])
         {
             z = targetZ;
             IsMove = false;
@@ -92,7 +92,7 @@ public class PlayerPassive : MonoBehaviour {
 
         Vector3 movement = new Vector3(0.0f, moveVertical, -moveHorizontal);
         GetComponent<Rigidbody>().velocity = movement * Speed;
-        GetComponent<Rigidbody>().rotation = Quaternion.Euler(GetComponent<Rigidbody>().velocity.z * tilt - 90f, 0f, 0.0f);
+        GetComponent<Rigidbody>().rotation = Quaternion.Euler(5f, 180f, GetComponent<Rigidbody>().velocity.x * tilt);
 
 
 
