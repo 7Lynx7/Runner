@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 49768121b8252794db0ba3062bb4579a
+timeCreated: 1510333308
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Yu Gothic
+  fontNames:
+  - Yu Gothic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7ffc9bc174e8f914ab43de008a525592, type: 3}
+  - {fileID: 12800000, guid: f4df1709f9fb02149833c6bc85a6b802, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

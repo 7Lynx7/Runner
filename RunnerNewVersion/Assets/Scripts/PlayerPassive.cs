@@ -90,9 +90,9 @@ public class PlayerPassive : MonoBehaviour {
             moveHorizontal = 0;
         } //здесь он заканчиваеться
 
-        Vector3 movement = new Vector3(0.0f, moveVertical, -moveHorizontal);
+        Vector3 movement = new Vector3(-moveHorizontal, moveVertical, 0.0f);
         GetComponent<Rigidbody>().velocity = movement * Speed;
-        GetComponent<Rigidbody>().rotation = Quaternion.Euler(5f, 180f, GetComponent<Rigidbody>().velocity.x * tilt);
+        GetComponent<Rigidbody>().rotation = Quaternion.Euler(7f, 180f, GetComponent<Rigidbody>().velocity.x * tilt);
 
 
 

@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: be006154a8f80854db7cc9ba046cc3e3
+timeCreated: 1510255271
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Bashnya
+    100002: Cylinder001
+    100004: Cylinder002
+    100006: Korotk_lijach_police
+    100008: Lejach_police
+    100010: Naves_stena
+    100012: Plac
+    100014: //RootNode
+    100016: Pyramid001
+    100018: Stena
+    100020: Stena2
+    100022: Stena3
+    100024: Stena_kubik_sobr
+    400000: Bashnya
+    400002: Cylinder001
+    400004: Cylinder002
+    400006: Korotk_lijach_police
+    400008: Lejach_police
+    400010: Naves_stena
+    400012: Plac
+    400014: //RootNode
+    400016: Pyramid001
+    400018: Stena
+    400020: Stena2
+    400022: Stena3
+    400024: Stena_kubik_sobr
+    2300000: Bashnya
+    2300002: Cylinder001
+    2300004: Cylinder002
+    2300006: Korotk_lijach_police
+    2300008: Lejach_police
+    2300010: Naves_stena
+    2300012: Plac
+    2300014: Pyramid001
+    2300016: Stena
+    2300018: Stena2
+    2300020: Stena3
+    2300022: Stena_kubik_sobr
+    3300000: Bashnya
+    3300002: Cylinder001
+    3300004: Cylinder002
+    3300006: Korotk_lijach_police
+    3300008: Lejach_police
+    3300010: Naves_stena
+    3300012: Plac
+    3300014: Pyramid001
+    3300016: Stena
+    3300018: Stena2
+    3300020: Stena3
+    3300022: Stena_kubik_sobr
+    4300000: Korotk_lijach_police
+    4300002: Stena2
+    4300004: Lejach_police
+    4300006: Plac
+    4300008: Naves_stena
+    4300010: Pyramid001
+    4300012: Stena_kubik_sobr
+    4300014: Stena3
+    4300016: Stena
+    4300018: Bashnya
+    4300020: Cylinder001
+    4300022: Cylinder002
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

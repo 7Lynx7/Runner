@@ -12,6 +12,7 @@ public class Controls : MonoBehaviour {
     public float xMin, xMax, yMin, yMax;
     public float tilt;
     public bool Controlled;
+    public MenuScript Canvas;
     // Update is called once per frame
     void Update () {
         transform.position = new Vector3
@@ -48,30 +49,30 @@ public class Controls : MonoBehaviour {
          {
              transform.Translate(Vector3.up * Speed * Time.deltaTime);
          }*/
+        if (Input.GetAxis("Vertical") >0)
+        {
+            moveVertical = Input.GetAxis("Vertical");
+        }
+        else moveVertical = -1;
     }
-
+    public GameObject FlySound;
+    [Range (0, 1)]
+    public float VolumeFlySound;
+    [Range(0, 1)]
+    public float DefaultVolume;
     float moveVertical;
     private void FixedUpdate()
     {
-        
-            if (Input.GetAxis("Vertical") > 0)
-            {
-                moveVertical = 1;
-            }
-            if (Input.GetAxis("Vertical") < 0)
-            {
-                moveVertical = -1;
-            }
-            //Input.GetAxis("Vertical");
-
-        
         float moveHorizontal = Input.GetAxis("Horizontal");
         //Input.GetAxis("Vertical");
         if (Controlled)
         {
             Vector3 movement = new Vector3(-moveHorizontal, moveVertical / 2, 0.0f);
             GetComponent<Rigidbody>().velocity = movement * Speed;
-            GetComponent<Rigidbody>().rotation = Quaternion.Euler(5f, 180f, GetComponent<Rigidbody>().velocity.x * tilt);
+            GetComponent<Rigidbody>().rotation = Quaternion.Euler(7f, 180f, GetComponent<Rigidbody>().velocity.x * tilt);
         }
+        if (Canvas.SOUND == 1)
+            FlySound.GetComponent<AudioSource>().volume = Mathf.Abs(moveHorizontal) * VolumeFlySound * Canvas.SFXvol + DefaultVolume * Canvas.SFXvol;
+        else FlySound.GetComponent<AudioSource>().volume = 0;
     }
 }

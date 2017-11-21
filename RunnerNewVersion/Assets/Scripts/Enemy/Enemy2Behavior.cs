@@ -44,12 +44,12 @@ public class Enemy2Behavior : MonoBehaviour {
                 if (z == 0)
                 {
                     targetZ = 2;
-                    Speed = 1.71f;
+                  
                 }
                 if (z == 4)
                 {
                     targetZ = 2;
-                    Speed = 1.71f;
+                   
                 }
             }
             else
@@ -57,17 +57,17 @@ public class Enemy2Behavior : MonoBehaviour {
                 if (Prepyatsviya[z - 1] > Prepyatsviya[z + 1])
                 {
                     targetZ = z + 1;
-                    Speed = 1.71f;
+                   
                 }
                 if (Prepyatsviya[z - 1] == Prepyatsviya[z + 1])
                 {
                     targetZ = z - 1;
-                    Speed = 1.71f;
+                  
                 }
                 if (Prepyatsviya[z - 1] < Prepyatsviya[z + 1])
                 {
                     targetZ = z - 1;
-                    Speed = 1.71f;
+                  
                 }
             }
 
@@ -110,7 +110,7 @@ public class Enemy2Behavior : MonoBehaviour {
                 }
             }
             else Attak();
-            TimeToAttak = UnityEngine.Random.Range(40, 60);
+            TimeToAttak = UnityEngine.Random.Range(60, 80);
         }//конец кода отвечающего за атаку
        
        //движение по физике
@@ -125,13 +125,15 @@ public class Enemy2Behavior : MonoBehaviour {
     public float TimeToAttak;
     public float TimeToAttak2;
     public bool AttakTumbler;
+    public GameObject BlasterSound;
     public void Attak()
     {
         if (AttakTumbler)
         {
            // gameObject.GetComponent<MeshRenderer>().material.color = Color.white;
-            Instantiate(Bullet, gameObject.transform.position, Quaternion.Euler(-95f, 0, 0f));
+            Instantiate(Bullet, gameObject.transform.position, Quaternion.Euler(-96f, 0, 0f));
             TimeToAttak2 = 0;
+            BlasterSound.GetComponent<AudioSource>().Play();
         }
     }
     public void Sdvig()
@@ -142,13 +144,13 @@ public class Enemy2Behavior : MonoBehaviour {
                 {
                     targetZ =  1;
                     AttakTumbler = true;
-                    Speed = 5;
+                  
                 }
             if (z == 4) if (Prepyatsviya[3] == 0 && Enemy1.GetComponent<EnemyBehavior>().targetZ !=3)
                 {
                     targetZ = 3;
                     AttakTumbler = true;
-                    Speed = 5;
+                 
                 }
         }
         else
@@ -157,13 +159,13 @@ public class Enemy2Behavior : MonoBehaviour {
             {
                 targetZ = z + 1;
                 AttakTumbler = true;
-                Speed = 5;
+               
             }
             if(z != 0) if (Prepyatsviya[z - 1] == 0 && Enemy1.GetComponent<EnemyBehavior>().targetZ != z - 1)
             {
                 targetZ = z - 1;
                 AttakTumbler = true;
-                Speed = 5;
+               
             }
         }
         if (targetZ == Enemy1.GetComponent<EnemyBehavior>().targetZ)

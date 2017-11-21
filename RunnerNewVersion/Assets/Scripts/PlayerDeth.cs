@@ -15,21 +15,24 @@ public class PlayerDeth : MonoBehaviour {
     //   // if (Other.name == Bullet.name || Other.name == Pillar.name || Other.name == Wall.name)
     //        Death();
     //}
+    public GameObject LossSound;
     public void Death()
     {
         Particle.GetComponent<ParticleSystem>().Play();
         Player.GetComponent<MeshRenderer>().enabled = false;
         Player.GetComponent<Rigidbody>().velocity = new Vector3();
         Particle2.SetActive(false);
-        GetComponent<Controls>().enabled = false;
+        GetComponent<Controls>().Controlled = false;
         GetComponent<MeshCollider>().enabled = false;
         DeathPassiveRotate = true;
         TimerToMenu = true;
         Canvas.GetComponent<MenuScript>().IsGame = false;
         YouLose.SetActive(true);
+        LossSound.GetComponent<AudioSource>().Play();
+        Canvas.GetComponent<MenuScript>().AlreadyDead = true;
     }
 
-    void StartGame()
+    public void ToMenu()
     {
         TIME = -1f;
         koef = 4;
@@ -54,14 +57,13 @@ public class PlayerDeth : MonoBehaviour {
             DeathPassiveRotate = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space)) TimeToMenu = 4;
 
         if (TimerToMenu)
         {
             TimeToMenu += Time.deltaTime;
             if(TimeToMenu>3)
             {
-                StartGame();
+                ToMenu();
             }
         }
     }

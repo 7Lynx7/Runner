@@ -103,7 +103,7 @@ public class EnemyBehavior : MonoBehaviour
         {
             time = 0f;
             Attak();
-            TimeToAttak = UnityEngine.Random.Range(40, 60);
+            TimeToAttak = UnityEngine.Random.Range(60, 80);
         }//конец кода отвечающего за атаку
 
         //движение по физике
@@ -118,9 +118,11 @@ public class EnemyBehavior : MonoBehaviour
     public float time; //этот код отвечает за атаку
     public float TimeToAttak;
     public GameObject Bullet;
+    public GameObject BlasterSound;
     public void Attak()
     {
         //gameObject.GetComponent<MeshRenderer>().material.color = Color.white;
-        Instantiate(Bullet, gameObject.transform.position, Quaternion.Euler(-95f, 0, 0f));
+        Instantiate(Bullet, gameObject.transform.position, Quaternion.Euler(-96f, 0, 0f));
+        BlasterSound.GetComponent<AudioSource>().Play();
     }
 }
