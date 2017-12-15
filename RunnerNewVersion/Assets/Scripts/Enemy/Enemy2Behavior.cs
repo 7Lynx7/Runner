@@ -61,8 +61,29 @@ public class Enemy2Behavior : MonoBehaviour {
                 }
                 if (Prepyatsviya[z - 1] == Prepyatsviya[z + 1])
                 {
-                    targetZ = z - 1;
-                  
+                    if (Player.transform.position.x >= transform.position.x)
+                    {
+                        for (int i = z; i <= 4; i++)
+                        {
+                            if (Prepyatsviya[i] == 0)
+                            {
+                                targetZ = i;
+                                break;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        for (int i = z; i >= 0; i--)
+                        {
+                            if (Prepyatsviya[i] == 0)
+                            {
+                                targetZ = i;
+                                break;
+                            }
+                        }
+                    }
+
                 }
                 if (Prepyatsviya[z - 1] < Prepyatsviya[z + 1])
                 {

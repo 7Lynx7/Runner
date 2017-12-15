@@ -1,10 +1,10 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerDeth : MonoBehaviour {
 
-    public GameObject Bullet, Pillar, Wall, Particle, Particle2, Player, Canvas, YouLose;
+    public GameObject Bullet, Pillar, Wall, Particle, Particle2, Player, Canvas, YouLose, Enemy;
 
     public bool DeathPassiveRotate = false, TimerToMenu = false;
 
@@ -18,6 +18,7 @@ public class PlayerDeth : MonoBehaviour {
     public GameObject LossSound;
     public void Death()
     {
+        Enemy.GetComponent<EnemiesUlyot>().Uliot();
         Particle.GetComponent<ParticleSystem>().Play();
         Player.GetComponent<MeshRenderer>().enabled = false;
         Player.GetComponent<Rigidbody>().velocity = new Vector3();
@@ -30,6 +31,7 @@ public class PlayerDeth : MonoBehaviour {
         YouLose.SetActive(true);
         LossSound.GetComponent<AudioSource>().Play();
         Canvas.GetComponent<MenuScript>().AlreadyDead = true;
+        Canvas.GetComponent<MenuScript>().StartCorut();
     }
 
     public void ToMenu()

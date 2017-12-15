@@ -37,7 +37,15 @@ public class BulletBehavior : MonoBehaviour {
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Pushka001(Clone)" /*&& Canvas.GetComponent<MenuScript>().IsGame*/ && GetComponent<OnColisionWithPlayer>().Dangerous == true)
+        if (
+            (collision.gameObject.name == "Pillar(Clone)" ||
+                collision.gameObject.name == "Plac(Clone)" ||
+                collision.gameObject.name == "WallHigh(Clone)" ||
+                collision.gameObject.name == "WallHighBroad(Clone)" ||
+                collision.gameObject.name == "WallHighNarrow(Clone)" 
+            )
+            /*&& Canvas.GetComponent<MenuScript>().IsGame*/
+            && GetComponent<OnColisionWithPlayer>().Dangerous == true)
         {
             SelfDestroy();
         }

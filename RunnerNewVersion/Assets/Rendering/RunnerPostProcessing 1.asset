@@ -25,11 +25,11 @@ MonoBehaviour:
         motionVectorsResolution: 24
         motionVectorsAmplitude: 64
   fog:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       excludeSkybox: 1
   antialiasing:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       method: 0
       fxaaSettings:
@@ -42,11 +42,11 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 1
-      radius: 0.7
-      sampleCount: 10
+      intensity: 1.72
+      radius: 0.18
+      sampleCount: 3
       downsampling: 1
-      forceForwardCompatibility: 0
+      forceForwardCompatibility: 1
       ambientOnly: 0
       highPrecision: 0
   screenSpaceReflection:
@@ -69,7 +69,7 @@ MonoBehaviour:
       screenEdgeMask:
         intensity: 0.03
   depthOfField:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       focusDistance: 0.1
       aperture: 31.6
@@ -79,35 +79,35 @@ MonoBehaviour:
   motionBlur:
     m_Enabled: 1
     m_Settings:
-      shutterAngle: 6
-      sampleCount: 32
-      frameBlending: 0.18
+      shutterAngle: 0
+      sampleCount: 4
+      frameBlending: 0.236
   eyeAdaptation:
     m_Enabled: 0
     m_Settings:
-      lowPercent: 27.508005
-      highPercent: 86.8457
-      minLuminance: -5
-      maxLuminance: 1
-      keyValue: 0.25
-      dynamicKeyValue: 1
+      lowPercent: 26.84757
+      highPercent: 60.80165
+      minLuminance: -9.99
+      maxLuminance: 14.85
+      keyValue: 0.09
+      dynamicKeyValue: 0
       adaptationType: 1
-      speedUp: 2
+      speedUp: 3.13
       speedDown: 1
-      logMin: -7
-      logMax: 7
+      logMin: -9
+      logMax: 5
   bloom:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 2.8
-        threshold: 1.8
-        softKnee: 0.48
-        radius: 1
-        antiFlicker: 1
+        intensity: 3.64
+        threshold: 7.73
+        softKnee: 1
+        radius: 1.87
+        antiFlicker: 0
       lensDirt:
         texture: {fileID: 2800000, guid: 9ba2340168b659b44b08c0117a366598, type: 3}
-        intensity: 7.69
+        intensity: 32.41
   colorGrading:
     m_Enabled: 1
     m_Settings:
@@ -281,7 +281,7 @@ MonoBehaviour:
       lut: {fileID: 0}
       contribution: 1
   chromaticAberration:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       spectralTexture: {fileID: 0}
       intensity: 0.1
@@ -289,8 +289,8 @@ MonoBehaviour:
     m_Enabled: 0
     m_Settings:
       colored: 1
-      intensity: 0.136
-      size: 1
+      intensity: 0.323
+      size: 0.3
       luminanceContribution: 0.8
   vignette:
     m_Enabled: 1
